@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "battery-pack": "libs/battery-pack",
     "consumer": "apps/consumer",
     "consumer-e2e": "apps/consumer-e2e"
   }
