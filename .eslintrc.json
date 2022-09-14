@@ -13,8 +13,16 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "scope:page",
+                "onlyDependOnLibsWithTags": ["scope:ui"]
+              },
+              {
+                "sourceTag": "scope:ui",
+                "onlyDependOnLibsWithTags": ["scope:universal"]
+              },
+              {
+                "sourceTag": "scope:server",
+                "onlyDependOnLibsWithTags": ["scope:universal"]
               }
             ]
           }
