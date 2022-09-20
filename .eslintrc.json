@@ -13,6 +13,14 @@
             "allow": [],
             "depConstraints": [
               {
+                "sourceTag": "scope:app",
+                "onlyDependOnLibsWithTags": [
+                  "scope:page",
+                  "scope:ui",
+                  "scope:server"
+                ]
+              },
+              {
                 "sourceTag": "scope:page",
                 "onlyDependOnLibsWithTags": ["scope:ui"]
               },

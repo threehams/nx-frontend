@@ -18,37 +18,6 @@
         "jestConfig": "libs/battery-pack/jest.config.ts",
         "passWithNoTests": true
       }
-    },
-    "storybook": {
-      "executor": "@nrwl/storybook:storybook",
-      "options": {
-        "uiFramework": "@storybook/react",
-        "port": 4400,
-        "config": {
-          "configFolder": "libs/battery-pack/.storybook"
-        }
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
-    },
-    "build-storybook": {
-      "executor": "@nrwl/storybook:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "uiFramework": "@storybook/react",
-        "outputPath": "dist/storybook/battery-pack",
-        "config": {
-          "configFolder": "libs/battery-pack/.storybook"
-        }
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
     }
   }
 }
