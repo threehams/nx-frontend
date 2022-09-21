@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@truecar/battery-pack": ["libs/battery-pack/src/index.ts"],
+      "@truecar/generators": ["libs/generators/src/index.ts"],
       "@truecar/pages/home-page": ["libs/pages/home-page/src/index.ts"]
     }
   },

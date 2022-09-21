@@ -2,14 +2,14 @@ import { Button } from "@truecar/battery-pack";
 
 export function HomePage() {
   return (
-    <div className="bg-slate-200 min-h-screen">
-      <div className="container mx-auto py-4">
-        <h1>
-          <span> Hello there, </span>
-          Welcome consumer 👋
+    <div className="min-h-screen bg-slate-200">
+      <div className="container py-4 mx-auto">
+        <h1>Hello there, Welcome consumer!</h1>
+
+        <div className="flex gap-2">
           <Button variant="primary">Primary</Button>
           <Button variant="secondary">Secondary</Button>
-        </h1>
+        </div>
       </div>
     </div>
   );
