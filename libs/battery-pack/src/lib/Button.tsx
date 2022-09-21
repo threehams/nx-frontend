@@ -4,9 +4,10 @@ import React from "react";
 export type ButtonProps = {
   variant: "primary" | "secondary";
   children: React.ReactNode;
+  className?: string;
 };
 
-export const Button = ({ variant, children }: ButtonProps) => {
+export const Button = ({ variant, children, className }: ButtonProps) => {
   return (
     <button
       className={clsx(
@@ -15,6 +16,7 @@ export const Button = ({ variant, children }: ButtonProps) => {
           "bg-slate-700 text-white border-transparent active:bg-slate-800",
         variant === "secondary" &&
           "bg-gray-200 text-slate-700 border-slate-700 active:bg-gray-300",
+        className,
       )}
     >
       {children}

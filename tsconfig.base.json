@@ -19,6 +19,9 @@
       "@truecar/generators": ["libs/generators/src/index.ts"],
       "@truecar/pages/consumer/home-page": [
         "libs/pages/consumer/home-page/src/index.ts"
+      ],
+      "@truecar/pages/dealer/home-page": [
+        "libs/pages/dealer/home-page/src/index.ts"
       ]
     }
   },

@@ -9,6 +9,7 @@
     "dealer-e2e": "apps/dealer-e2e",
     "generators": "libs/generators",
     "generators-e2e": "apps/generators-e2e",
+    "pages-dealer-home-page": "libs/pages/dealer/home-page",
     "pages/consumer/home-page": "libs/pages/consumer/home-page"
   }
 }
