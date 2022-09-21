@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
   displayName: "pages-home-page",
-  preset: "../../../jest.preset.js",
+  preset: "../../../../jest.preset.js",
   transform: {
     "^.+\\.[tj]sx?$": [
       "@swc/jest",
@@ -9,5 +9,5 @@ export default {
     ],
   },
   moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
-  coverageDirectory: "../../../coverage/libs/pages/home-page",
+  coverageDirectory: "../../../../coverage/libs/pages/consumer/home-page",
 };

@@ -9,6 +9,6 @@
     "dealer-e2e": "apps/dealer-e2e",
     "generators": "libs/generators",
     "generators-e2e": "apps/generators-e2e",
-    "pages-home-page": "libs/pages/home-page"
+    "pages/consumer/home-page": "libs/pages/consumer/home-page"
   }
 }

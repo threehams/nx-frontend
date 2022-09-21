@@ -1,1 +1,1 @@
-export { HomePage as default } from "@truecar/pages/home-page";
+export { HomePage as default } from "@truecar/pages/consumer/home-page";
