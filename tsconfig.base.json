@@ -22,6 +22,9 @@
       ],
       "@truecar/pages/dealer/home-page": [
         "libs/pages/dealer/home-page/src/index.ts"
+      ],
+      "@truecar/testing/cypress-utils": [
+        "libs/testing/cypress-utils/src/index.ts"
       ]
     }
   },

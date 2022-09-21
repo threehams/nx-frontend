@@ -11,7 +11,7 @@ export const Button = ({ variant, children, className }: ButtonProps) => {
   return (
     <button
       className={clsx(
-        "py-2 px-4 rounded-md border-2",
+        "py-1 px-4 rounded-md border-2",
         variant === "primary" &&
           "bg-slate-700 text-white border-transparent active:bg-slate-800",
         variant === "secondary" &&
