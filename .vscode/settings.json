@@ -1,3 +1,9 @@
 {
-  "eslint.validate": ["json"]
+  "eslint.validate": ["json"],
+  "files.exclude": {
+    "libs/**/.eslintrc.json": true,
+    "libs/**/.lib.swcrc": true,
+    "libs/**/jest.config.ts": true,
+    "libs/**/tsconfig.*": true
+  }
 }

@@ -6,7 +6,7 @@ export interface HomePageProps {}
 export function HomePage(props: HomePageProps) {
   return (
     <div>
-      <h1>Welcome to HomePage!</h1>
+      <h1>Welcome to Dealer HomePage!</h1>
       <Button variant="primary">Call to Action</Button>
     </div>
   );

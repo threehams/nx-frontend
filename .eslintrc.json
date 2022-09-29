@@ -17,12 +17,17 @@
                 "onlyDependOnLibsWithTags": [
                   "scope:page",
                   "scope:ui",
-                  "scope:server"
+                  "scope:server",
+                  "scope:universal"
                 ]
               },
               {
+                "sourceTag": "scope:e2e",
+                "onlyDependOnLibsWithTags": ["scope:universal"]
+              },
+              {
                 "sourceTag": "scope:page",
-                "onlyDependOnLibsWithTags": ["scope:ui"]
+                "onlyDependOnLibsWithTags": ["scope:ui", "scope:universal"]
               },
               {
                 "sourceTag": "scope:ui",
